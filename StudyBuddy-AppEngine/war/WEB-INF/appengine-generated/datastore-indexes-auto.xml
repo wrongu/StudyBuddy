@@ -1,0 +1,11 @@
+<!-- Indices written at Mon, 27 May 2013 22:20:48 EDT -->
+
+<datastore-indexes>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="NoiseEntry" ancestor="true" source="auto">
+        <property name="noisemap_raw" direction="asc"/>
+        <property name="noisemap_timestamp" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

@@ -1,0 +1,50 @@
+# view res/layout/activity_browse_room.xml #generated:12
+# view res/layout/activity_display_room.xml #generated:18
+# view res/layout/activity_room_def.xml #generated:22
+-keep class com.google.android.gms.maps.MapFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.titaniumjellyfish.studybuddy.BrowseRoomActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.titaniumjellyfish.studybuddy.DisplayRoomActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.titaniumjellyfish.studybuddy.MainActivityGo { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class com.titaniumjellyfish.studybuddy.RoomDef { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class com.titaniumjellyfish.studybuddy.SensorService { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.titaniumjellyfish.studybuddy.SurveyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class com.titaniumjellyfish.studybuddy.clientside.UpDownService { <init>(...); }
+
+# onClick res/layout/activity_main_go.xml #generated:50
+-keepclassmembers class * { *** doSync(...); }
+
+# onClick res/layout/activity_browse_room.xml #generated:19
+-keepclassmembers class * { *** gotoDisplayRoom(...); }
+
+# onClick res/layout/activity_display_room.xml #generated:395
+-keepclassmembers class * { *** onBackClicked(...); }
+
+# onClick res/layout/activity_room_def.xml #generated:125
+-keepclassmembers class * { *** onClickCancel(...); }
+
+# onClick res/layout/activity_survey.xml #generated:49
+-keepclassmembers class * { *** onClickOk(...); }
+
+# onClick res/layout/activity_room_def.xml #generated:115
+-keepclassmembers class * { *** onClickSave(...); }
+
+# onClick res/layout/activity_main_go.xml #generated:34
+-keepclassmembers class * { *** onGoClicked(...); }
+
+# onClick res/layout/activity_main_go.xml #generated:57
+-keepclassmembers class * { *** onSurveyClicked(...); }
+
